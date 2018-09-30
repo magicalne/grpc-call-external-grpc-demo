@@ -1,0 +1,12 @@
+FROM frolvlad/alpine-oraclejdk8:slim
+
+WORKDIR /main
+
+ADD ./external-server/build/libs/external-server.jar /main
+CMD ls /main
+
+EXPOSE 8888
+
+CMD java \
+    -jar \
+     /main/external-server.jar $EXTERNAL_SERVER_HOST $EXTERNAL_SERVER_PORT

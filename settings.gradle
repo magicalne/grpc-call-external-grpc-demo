@@ -1,0 +1,6 @@
+rootProject.name = 'grpc-call-external-grpc-demo'
+include 'main-service'
+include 'external-service'
+include 'external-server'
+include 'main-server'
+

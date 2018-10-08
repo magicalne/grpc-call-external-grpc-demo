@@ -2,9 +2,9 @@ package magicalne.github.io.server;
 
 import io.grpc.ManagedChannel;
 import io.grpc.ManagedChannelBuilder;
-import magicalne.github.io.ExternalServiceGrpc;
-import magicalne.github.io.Req;
-import magicalne.github.io.Res;
+import magicalne.github.io.proto.external.ExternalServiceGrpc;
+import magicalne.github.io.proto.external.Req;
+import magicalne.github.io.proto.external.Res;
 
 import java.util.concurrent.TimeUnit;
 

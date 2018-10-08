@@ -3,9 +3,9 @@ package magicalne.github.io.server;
 import io.grpc.Server;
 import io.grpc.ServerBuilder;
 import io.grpc.stub.StreamObserver;
-import magicalne.github.io.ExternalServiceGrpc;
-import magicalne.github.io.Req;
-import magicalne.github.io.Res;
+import magicalne.github.io.proto.external.ExternalServiceGrpc;
+import magicalne.github.io.proto.external.Req;
+import magicalne.github.io.proto.external.Res;
 
 import java.io.IOException;
 
